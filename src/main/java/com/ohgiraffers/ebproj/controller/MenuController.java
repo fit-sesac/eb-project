@@ -9,4 +9,9 @@ public class MenuController {
     public String healthCheck(){
         return  "I'm OK";
     }
+
+    @GetMapping("/menu")
+    public  String menu(){
+        return  "I'm OK";
+    }
 }
